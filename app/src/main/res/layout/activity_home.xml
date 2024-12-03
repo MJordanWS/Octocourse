@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="424dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/navbar" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="431dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/btnDownload"
+        android:layout_width="151dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viewdownload" />
+
+    <ImageView
+        android:id="@+id/btnQuiz"
+        android:layout_width="151dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quiz" />
+
+    <ImageView
+        android:id="@+id/btnReport"
+        android:layout_width="151dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/report" />
+
+    <ImageView
+        android:id="@+id/btnStudy"
+        android:layout_width="151dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/schedule" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="88dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintStart_toEndOf="@+id/btnIndonesia"
+        app:srcCompat="@drawable/matik" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="88dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:srcCompat="@drawable/sains" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="88dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIndonesia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/inggris" />
+
+    <ImageView
+        android:id="@+id/btnIndonesia"
+        android:layout_width="88dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView20"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:srcCompat="@drawable/indonesiaa" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="412dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/navbar" />
+
+    <ImageView
+        android:id="@+id/btnCourse"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgQuiz"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dua" />
+
+    <ImageView
+        android:id="@+id/btnSetting"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/empat" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCourse"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/satu" />
+
+    <ImageView
+        android:id="@+id/imgQuiz"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/tiga" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
