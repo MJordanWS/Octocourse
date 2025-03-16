@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "447107571721",
+    "project_id": "octocourse-18e27",
+    "storage_bucket": "octocourse-18e27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447107571721:android:ed7d7ea5544dec7dd898d8",
+        "android_client_info": {
+          "package_name": "com.jordan.octocourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447107571721-4o6de6173raqi85bag74ap8ko2hjcc1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jordan.octocourse",
+            "certificate_hash": "d1534b569ef169ace7edf26e0e123fcb18294b70"
+          }
+        },
+        {
+          "client_id": "447107571721-q4et6i8bdl26p1fgf0e7lvu5ltcgubcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADC9BdJkq1bJ1ovJn_wkK0U6mL8gSPAvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447107571721-q4et6i8bdl26p1fgf0e7lvu5ltcgubcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

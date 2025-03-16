@@ -64,7 +64,7 @@
         android:layout_width="273dp"
         android:layout_height="57dp"
         android:layout_marginStart="113dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="165dp"
         android:background="@drawable/round_btn"
         android:text="SIGN UP"
@@ -94,20 +94,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnsignup" />
 
     <EditText
-        android:id="@+id/txtMail"
-        android:layout_width="318dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="76dp"
-        android:background="@drawable/cstm_textinput"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Email"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <EditText
         android:id="@+id/txtPswrd"
         android:layout_width="318dp"
         android:layout_height="54dp"
@@ -120,6 +106,20 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtMail" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="318dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/cstm_textinput"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/txtConfirm"
