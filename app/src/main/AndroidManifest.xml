@@ -13,6 +13,18 @@
         android:theme="@style/Theme.OctoCourse"
         tools:targetApi="31">
         <activity
+            android:name=".EditMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InputMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoritCourse"
+            android:exported="false" />
+        <activity
+            android:name=".InputMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".Setting"
             android:exported="false" />
         <activity

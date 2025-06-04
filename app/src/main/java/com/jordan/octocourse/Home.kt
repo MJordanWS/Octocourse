@@ -42,9 +42,9 @@ class Home : AppCompatActivity() {
             finish()
         }
 
-        val btnDownload = findViewById<ImageView>(R.id.btnDownload)
-        btnDownload.setOnClickListener {
-            val intent = Intent(this@Home, ViewDownload::class.java)
+        val imgFav = findViewById<ImageView>(R.id.imgFav)
+        imgFav.setOnClickListener {
+            val intent = Intent(this@Home, FavoritCourse::class.java)
             startActivity(intent)
             finish()
         }
